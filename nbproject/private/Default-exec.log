@@ -1,0 +1,116 @@
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	main.o
+	main.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	games/rules/ShatranjRule.o
+	games/rules/ShatranjRule.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	games/ShatranjGame.o
+	games/ShatranjGame.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	games/boards/ShatranjBoard.o
+	games/boards/ShatranjBoard.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	Core/Case.o
+	Core/Case.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	lib/Position.o
+	lib/Position.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	games/boards/ChessBoard.o
+	games/boards/ChessBoard.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	games/ChessGame.o
+	games/ChessGame.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	lib/HumanPlayer.o
+	lib/HumanPlayer.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	games/rules/ChessRule.o
+	games/rules/ChessRule.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	lib/StateDetector.o
+	lib/StateDetector.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-c
+	-o
+	lib/MrRobot.o
+	lib/MrRobot.cpp
+
+called: C:\cygwin\bin\g++.exe
+	C:\Users\Oussama\Desktop\Cours\C++\Projet\BoardGameCreator_v0.4
+	C:\cygwin\bin\g++.exe
+	-std=c++11
+	-Wall
+	-o
+	run
+	main.o
+	games/rules/ShatranjRule.o
+	games/ShatranjGame.o
+	games/boards/ShatranjBoard.o
+	Core/Case.o
+	lib/Position.o
+	games/boards/ChessBoard.o
+	games/ChessGame.o
+	lib/HumanPlayer.o
+	games/rules/ChessRule.o
+	lib/StateDetector.o
+	lib/MrRobot.o
+

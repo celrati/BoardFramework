@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="Core">
+        <in>Case.cpp</in>
+      </df>
+      <df name="games">
+        <df name="boards">
+          <in>CheckersBoard.cpp</in>
+          <in>ChessBoard.cpp</in>
+          <in>DunsanyChessBoard.cpp</in>
+          <in>DunsanyChessBoard.hpp</in>
+          <in>ShatranjBoard.cpp</in>
+        </df>
+        <df name="rules">
+          <in>CheckersRule.cpp</in>
+          <in>ChessRule.cpp</in>
+          <in>DunsanyChessRule.cpp</in>
+          <in>DunsanyChessRule.hpp</in>
+          <in>ShatranjRule.cpp</in>
+        </df>
+        <in>CheckersGame.cpp</in>
+        <in>ChessGame.cpp</in>
+        <in>DunsanyChessGame.cpp</in>
+        <in>DunsanyChessGame.hpp</in>
+        <in>ShatranjGame.cpp</in>
+      </df>
+      <df name="lib">
+        <in>HumanPlayer.cpp</in>
+        <in>MrRobot.cpp</in>
+        <in>Position.cpp</in>
+        <in>StateDetector.cpp</in>
+      </df>
+      <in>main.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++14"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f makefile</buildCommand>
+          <cleanCommand>${MAKE} -f makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="Core/Case.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <folder path="0/Core">
+        <ccTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/games">
+        <ccTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/lib">
+        <ccTool>
+          <incDir>
+            <pElem></pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="games/CheckersGame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="games/ChessGame.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="games/DunsanyChessGame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="games/DunsanyChessGame.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="games/ShatranjGame.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="games/boards/CheckersBoard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="games/boards/ChessBoard.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="games/boards/DunsanyChessBoard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="games/boards/DunsanyChessBoard.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="games/boards/ShatranjBoard.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="games/rules/CheckersRule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="games/rules/ChessRule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="games/rules/DunsanyChessRule.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="games/rules/DunsanyChessRule.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="games/rules/ShatranjRule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="lib/HumanPlayer.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="lib/MrRobot.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="lib/Position.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="lib/StateDetector.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
